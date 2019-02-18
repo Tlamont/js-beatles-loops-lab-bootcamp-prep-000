@@ -20,11 +20,11 @@ function johnLennonFacts(facts){
 function iLoveTheBeatles (num){
   var i = 0;
   let array = [];
-  i = i + 1;
   if(num === 17){
     array.push('I love the Beatles!') 
     }else{
   do{array.push('I love the Beatles!')
+  i++;
 } while(i <= num);
 }
 return array;
