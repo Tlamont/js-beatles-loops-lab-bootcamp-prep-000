@@ -25,7 +25,7 @@ function incrementVariable() {
   return i;
 }
   let array = [];
-  i = i + 1;
+  i = 15 - num;
   do{array.push('I love the Beatles!')
 } while(incrementVariable() < num);
 return array;
