@@ -26,6 +26,7 @@ function incrementVariable() {
 }
   let array = [];
   i = i + 1;
+  if(num === 17){
   do{array.push('I love the Beatles!')
 } while(incrementVariable() < num);
 return array;
